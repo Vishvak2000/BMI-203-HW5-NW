@@ -9,11 +9,11 @@ See this [video](https://www.youtube.com/watch?v=NqYY0PJbD3s) for a walk through
 # Assignment Tasks
 ## Coding Assessment
 **Note: All modules you need have already been imported.**
-* [TODO] Complete the `NeedlemanWunsch.align` method found in the align/align.py 
+* [X] Complete the `NeedlemanWunsch.align` method found in the align/align.py 
 	* Finish the method for filling in the alignment and gap matrices for Needleman-Wunsch.
-* [TODO] Complete the `NeedlemanWunsch._backtrace` method found in align/align.py
+* [X] Complete the `NeedlemanWunsch._backtrace` method found in align/align.py
   * Use the heuristic you have chosen to implement in the the `NeedlemanWunsch.align` method to implement the backtracing procedure.
-* [TODO] Complete the `main` function in main.py to 
+* [X] Complete the `main` function in main.py to 
     1. align all provided species BRD2 sequences to the human BRD2 sequence and print the species in order of most similar to least similar with respect to human BRD2.
     2. print the alignment scores corresponding to each species alignment to the human BRD2 sequence.
 
@@ -30,7 +30,7 @@ Note: To check that you have correclty implemented your algorithm the following 
 	M---QLIRHP
 
 
-[TODO] Ensure that it runs pytest
+[X] Ensure that it runs pytest
 
 ### Pip Installable
 * [TODO] make .toml file with flit and ensure that your package can be installed with pip
